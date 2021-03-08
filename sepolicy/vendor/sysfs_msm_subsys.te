@@ -1,0 +1,7 @@
+allow sysfs_msm_subsys sysfs_msm_subsys:dir { search };
+allow surfaceflinger sysfs_msm_subsys:dir { search };
+allow mm-pp-daemon sysfs_msm_subsys:dir { search };
+allow thermal-engine sysfs_msm_subsys:dir { search };
+allow hal_fingerprint_oppo sysfs_msm_subsys:dir { search };
+allow hal_camera_default sysfs_msm_subsys:dir { search };
+allow bootanim sysfs_msm_subsys:dir { search };

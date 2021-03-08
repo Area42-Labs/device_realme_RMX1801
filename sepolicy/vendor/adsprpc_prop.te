@@ -1,0 +1,4 @@
+allow platform_app adsprpc_prop:file { open };
+allow platform_app adsprpc_prop:file { getattr };
+allow adsprpc_prop adsprpc_prop:file { getattr };
+allow adsprpc_prop adsprpc_prop:file { open };

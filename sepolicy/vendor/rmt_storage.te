@@ -4,3 +4,4 @@ allow rmt_storage sysfs_mmc:dir search;
 allow rmt_storage sysfs_mmc:file r_file_perms;
 allow rmt_storage sysfs_oembackup:dir search;
 allow rmt_storage sysfs_oembackup:file r_file_perms;
+allow rmt_storage block_device:blk_file { read write };

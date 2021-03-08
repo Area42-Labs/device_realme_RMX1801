@@ -1,0 +1,2 @@
+allow bg_daemon_prop bg_daemon_prop:file { getattr };
+allow bg_daemon_prop bg_daemon_prop:file { open };

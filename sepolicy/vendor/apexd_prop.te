@@ -1,0 +1,3 @@
+allow platform_app apexd_prop:file { open };
+allow apexd_prop apexd_prop:file { getattr };
+allow apexd_prop apexd_prop:file { open };

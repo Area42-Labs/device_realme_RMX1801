@@ -1,0 +1,2 @@
+allow apk_verity_prop apk_verity_prop:file { getattr };
+allow apk_verity_prop apk_verity_prop:file { open };

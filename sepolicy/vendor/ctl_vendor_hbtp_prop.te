@@ -1,0 +1,1 @@
+allow ctl_vendor_hbtp_prop ctl_vendor_hbtp_prop:file { open };

@@ -1,0 +1,4 @@
+allow priv_app vendor_apex_file:file { read };
+allow priv_app vendor_apex_file:file { open };
+allow priv_app vendor_apex_file:file { getattr };
+allow vold vendor_apex_file:file { getattr };

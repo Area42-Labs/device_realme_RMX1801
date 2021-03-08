@@ -1,1 +1,2 @@
 binder_call(cameraserver, mediacodec)
+allow zygote exported_camera_prop:file { read };

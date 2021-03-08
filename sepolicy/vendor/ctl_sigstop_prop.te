@@ -1,0 +1,2 @@
+allow ctl_sigstop_prop ctl_sigstop_prop:file { getattr };
+allow ctl_sigstop_prop ctl_sigstop_prop:file { open };

@@ -1,0 +1,2 @@
+allow ctl_start_prop ctl_start_prop:file { getattr };
+allow ctl_start_prop ctl_start_prop:file { open };
