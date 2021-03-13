@@ -1,2 +1,1 @@
-allow bg_boot_complete_prop bg_boot_complete_prop:file { getattr };
-allow bg_boot_complete_prop bg_boot_complete_prop:file { open };
+allow bg_boot_complete_prop bg_boot_complete_prop:file { getattr open };

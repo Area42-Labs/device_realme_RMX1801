@@ -1,6 +1,3 @@
-allow priv_app adbd_prop:file { open };
-allow priv_app adbd_prop:file { getattr };
-allow platform_app adbd_prop:file { open };
-allow platform_app adbd_prop:file { getattr };
-allow adbd_prop adbd_prop:file { getattr };
-allow adbd_prop adbd_prop:file { open };
+allow priv_app adbd_prop:file { getattr open };
+allow platform_app adbd_prop:file { getattr open };
+allow adbd_prop adbd_prop:file { getattr open };
